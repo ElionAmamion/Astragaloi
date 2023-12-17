@@ -2,4 +2,4 @@
 This game is based on a game in a game, and all the credit goes to Cult of the lamb.
 
 ***___How to start the game:___***
-  search for the main file and start the code.
+  Go to the terminal(cmd), make shure you are in the "___Astragaloi\main\target\debug___"-folder and type start main.exe
