@@ -2,3 +2,4 @@
 src\*.rs
 *.log
 *.o
+*.py
