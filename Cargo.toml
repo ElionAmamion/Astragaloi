@@ -3,7 +3,7 @@ name = "main"
 version = "0.1.0"
 authors = ["Elion"]
 edition = "2021"
-description = "This game is based on a game in a game, and all the credit goes to Cult of the lamb."
+description = "This game is based on a game in a game, and all the credit goes to 'Cult of the lamb'."
 repository = "https://github.com/ElionAmamion/Astragaloi"
 
 
