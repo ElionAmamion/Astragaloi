@@ -1,5 +1,4 @@
 This game is based on a game in a game.
-Sadly I could not make it possible to work on MacOS.
 
 ***___How to start the game:___***<br>
 
