@@ -1,5 +1,0 @@
-*.rs
-src\*.rs
-*.log
-*.o
-*.py
