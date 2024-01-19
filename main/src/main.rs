@@ -1,5 +1,14 @@
+use std::process::Command;
+
 fn main() {
-    println!("Astragaloi");
+
+    let output = Command::new("<link>dice.exe</link>")
+        .output()
+        .expect("Failed to run the executable");
+
+    println!("Output: {:?}", output);
+
+    /*println!("Astragaloi");
     println!("##########");
     println!("Du hast gewürfelt: <dice>");
     println!("Dein Gegner hat folgende Würfel:");
@@ -12,5 +21,5 @@ fn main() {
     println!(" 1 [ <p1-a1> ] [ <p1-b1> ] [ <p1-c1> ]");
     println!(" 2 [ <p1-a2> ] [ <p1-b2> ] [ <p1-c2> ]");
     println!(" 3 [ <p1-a3> ] [ <p1-b3> ] [ <p1-c3> ]");
-    println!("Wo willst du deinen Würfel platzieren?");
+    println!("Wo willst du deinen Würfel platzieren?");*/
 }
