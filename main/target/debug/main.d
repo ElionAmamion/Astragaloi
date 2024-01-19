@@ -1,1 +1,1 @@
-C:\Users\tylfr.KORILAKKUMA\Documents\GitHub\Astragaloi\main\target\debug\main.exe: C:\Users\tylfr.KORILAKKUMA\Documents\GitHub\Astragaloi\main\src\main.rs
+C:\Users\tylfr.KORILAKKUMA\Documents\GitHub\Astragaloi\almost_deleted\target\debug\main.exe: C:\Users\tylfr.KORILAKKUMA\Documents\GitHub\Astragaloi\almost_deleted\src\main.rs
