@@ -7,13 +7,13 @@ fn main() {
         .output()
         .expect("Failed to execute command");
 
-    println!("Output: {:?}", output);*/
-
-    //spielbrett
+    println!("Output: {}", output);*/
     
-    loop {
+    let mut running = true;
+    while running == true {
         let mut input = String::new();
         io::stdin().read_line(&mut input).expect("Fehler beim Lesen der Eingabe");
+        //spielbrett
         println!("Astragaloi");
         println!("##########");
         println!("Du hast gewürfelt: <dice>");
@@ -29,7 +29,7 @@ fn main() {
         println!(" 3 [ <p1-a3> ] [ <p1-b3> ] [ <p1-c3> ]");
         println!("Wo willst du deinen Würfel platzieren?");
         if input == "x" {
-            break()
+            running = false
         }
     }
 }
