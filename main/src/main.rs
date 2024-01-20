@@ -1,18 +1,20 @@
-//use std::process::Command; für den anderen, großen Komentar
 use std::io;
 
 fn main() {
-    /* Versuchdice.exe zu importieren
-    let output = Command::new("dice.exe")
-        .output()
-        .expect("Failed to execute command");
-
-    println!("Output: {}", output);*/
-    
+    println!("Drücke Enter um das Spiel zu starten.");
     let mut running = true;
+
     while running == true {
+
+        //let
+
         let mut input = String::new();
         io::stdin().read_line(&mut input).expect("Fehler beim Lesen der Eingabe");
+
+        if input == "x" {
+            running = false;
+        else {
+
         //spielbrett
         println!("Astragaloi");
         println!("##########");
@@ -28,8 +30,7 @@ fn main() {
         println!(" 2 [ <p1-a2> ] [ <p1-b2> ] [ <p1-c2> ]");
         println!(" 3 [ <p1-a3> ] [ <p1-b3> ] [ <p1-c3> ]");
         println!("Wo willst du deinen Würfel platzieren?");
-        if input == "x" {
-            running = false
+        
         }
     }
 }
