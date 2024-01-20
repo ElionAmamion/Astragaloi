@@ -1,8 +1,5 @@
-*.rs
-src\*.rs
 *.log
 *.o
-*.py
 
 # Added by cargo
 
