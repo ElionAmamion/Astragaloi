@@ -13,6 +13,7 @@ fn main() {
 
         if input == "x" {
             running = false;
+        }
         else {
 
         //spielbrett
